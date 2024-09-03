@@ -37,7 +37,8 @@ function AppBanner() {
           }}
           className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
         >
-          A Full-Stack Developer & Design Enthusiast
+          A Passionate Full-Stack Developer & Web3.js Enthusiast with a Flair
+          for Design
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}

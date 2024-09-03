@@ -48,7 +48,7 @@ function HireMeModal({ onClose, onRequest }) {
                   <RiTelegramLine /> Telegram
                 </a>
                 <a
-                  href="https://wa.me/8297557294"
+                  href="https://wa.me/+18297557294"
                   target="_blank"
                   className="font-general-medium text-center text-4xl bg-green-500 hover:bg-green-600 text-white shadow-sm rounded-sm px-4 py-4 mt-2 duration-300 flex gap-2 justify-center items-center"
                   aria-label="Hire Me Button"

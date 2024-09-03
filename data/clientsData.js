@@ -12,7 +12,7 @@ export const clientsData = [
 	{
 		id: uuidv4(),
 		title: 'pillarware',
-		img: 'https://pillarware.io/images/aguila.png',
+		img: 'https://raw.githubusercontent.com/XJuanCarlosXD/pillaware-desploy/main/public/images/aguila.png?token=GHSAT0AAAAAACVUAT6GUBMRYM6FPXT5MOMMZWWLIHQ',
 	},
 	{
 		id: uuidv4(),

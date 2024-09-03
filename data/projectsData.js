@@ -1,11 +1,4 @@
 import { v4 as uuidv4 } from 'uuid';
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
 
 export const projectsData = [
 	{
@@ -242,6 +235,73 @@ export const projectsData = [
 		},
 	},
 	{
+		id: 8,
+		title: 'Wedding',
+		url: 'https://invitacion-boda-maria-enmanuel.netlify.app',
+		category: 'Branding',
+		img: '/images/boda.png',
+		ProjectHeader: {
+			title: 'Nodefleet',
+			publishDate: 'Jan 10, 2024',
+			tags: 'Branding / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Nodefleet',
+				img: '/images/boda.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Nodefleet',
+				img: '/images/boda1.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Maria Abreu',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'UI Design & Frontend Development',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'The purpose of the page is to invite guests with a digital invitation and instantly know who will attend the wedding.',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'React',
+						'CSS',
+						'TypeScript',
+						'TailwindCSS',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'The primary goal of this project is to create a digital platform for wedding invitations, allowing hosts to easily invite guests and track RSVPs in real-time.',
+				},
+				{
+					id: uuidv4(),
+					details:
+						'Another objective is to streamline the RSVP process, providing guests with a convenient way to respond to the invitation digitally and allowing hosts to manage guest lists efficiently.',
+				},
+			]
+
+		},
+	},
+	{
 		id: 3,
 		title: 'Pillarware',
 		url: 'project-management-ui',
@@ -461,6 +521,77 @@ export const projectsData = [
 			// ],
 		},
 	},
+	{
+		id: 9,
+		title: 'VcardDO',
+		url: 'https://vcarddo-2b240.web.app',
+		category: 'Web Aplication',
+		img: '/images/vcard2.png',
+		ProjectHeader: {
+			title: 'VcardDO',
+			publishDate: 'Jan 10, 2022',
+			tags: 'Web Aplication / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'VcardDO',
+				img: '/images/vcard1.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'VcardDO',
+				img: '/images/vcard2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'VcardDO',
+				img: '/images/vcard3.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Owner',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'UI Design & Frontend Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://vcarddo-2b240.web.app',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				"Vcardo is a webpage that offers a completely free service for creating or generating QR codes.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'React',
+						'CSS',
+						'JavaScript',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						'Vcardo is a user-friendly platform that allows users to effortlessly create or generate QR codes at no cost. Whether for personal or professional use, Vcardo provides a convenient solution for individuals and businesses alike.',
+				},
+			],
+		},
+	},
+
 	{
 		id: 5,
 		title: 'SBF.FUN',
@@ -743,143 +874,8 @@ export const projectsData = [
 				},
 			],
 		},
-	}, {
-		id: 8,
-		title: 'Wedding',
-		url: 'https://invitacion-boda-maria-enmanuel.netlify.app',
-		category: 'Branding',
-		img: '/images/boda.png',
-		ProjectHeader: {
-			title: 'Nodefleet',
-			publishDate: 'Jan 10, 2024',
-			tags: 'Branding / Frontend',
-		},
-		ProjectImages: [
-			{
-				id: uuidv4(),
-				title: 'Nodefleet',
-				img: '/images/boda.png',
-			},
-			{
-				id: uuidv4(),
-				title: 'Nodefleet',
-				img: '/images/boda1.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'About Client',
-			CompanyInfo: [
-				{
-					id: uuidv4(),
-					title: 'Name',
-					details: 'Maria Abreu',
-				},
-				{
-					id: uuidv4(),
-					title: 'Services',
-					details: 'UI Design & Frontend Development',
-				},
-			],
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails:
-				'The purpose of the page is to invite guests with a digital invitation and instantly know who will attend the wedding.',
-			Technologies: [
-				{
-					title: 'Tools & Technologies',
-					techs: [
-						'React',
-						'CSS',
-						'TypeScript',
-						'TailwindCSS',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Challenge',
-			ProjectDetails: [
-				{
-					id: uuidv4(),
-					details:
-						'The primary goal of this project is to create a digital platform for wedding invitations, allowing hosts to easily invite guests and track RSVPs in real-time.',
-				},
-				{
-					id: uuidv4(),
-					details:
-						'Another objective is to streamline the RSVP process, providing guests with a convenient way to respond to the invitation digitally and allowing hosts to manage guest lists efficiently.',
-				},
-			]
+	},
 
-		},
-	},
-	{
-		id: 9,
-		title: 'VcardDO',
-		url: 'https://vcarddo-2b240.web.app',
-		category: 'Web Aplication',
-		img: '/images/vcard2.png',
-		ProjectHeader: {
-			title: 'VcardDO',
-			publishDate: 'Jan 10, 2022',
-			tags: 'Web Aplication / Frontend',
-		},
-		ProjectImages: [
-			{
-				id: uuidv4(),
-				title: 'VcardDO',
-				img: '/images/vcard1.png',
-			},
-			{
-				id: uuidv4(),
-				title: 'VcardDO',
-				img: '/images/vcard2.png',
-			},
-			{
-				id: uuidv4(),
-				title: 'VcardDO',
-				img: '/images/vcard3.png',
-			},
-		],
-		ProjectInfo: {
-			ClientHeading: 'About Client',
-			CompanyInfo: [
-				{
-					id: uuidv4(),
-					title: 'Name',
-					details: 'Owner',
-				},
-				{
-					id: uuidv4(),
-					title: 'Services',
-					details: 'UI Design & Frontend Development',
-				},
-				{
-					id: uuidv4(),
-					title: 'Website',
-					details: 'https://vcarddo-2b240.web.app',
-				},
-			],
-			ObjectivesHeading: 'Objective',
-			ObjectivesDetails:
-				"Vcardo is a webpage that offers a completely free service for creating or generating QR codes.",
-			Technologies: [
-				{
-					title: 'Tools & Technologies',
-					techs: [
-						'React',
-						'CSS',
-						'JavaScript',
-					],
-				},
-			],
-			ProjectDetailsHeading: 'Challenge',
-			ProjectDetails: [
-				{
-					id: uuidv4(),
-					details:
-						'Vcardo is a user-friendly platform that allows users to effortlessly create or generate QR codes at no cost. Whether for personal or professional use, Vcardo provides a convenient solution for individuals and businesses alike.',
-				},
-			],
-		},
-	},
 	{
 		id: 10,
 		title: 'Bot Injective',
@@ -940,6 +936,268 @@ export const projectsData = [
 					details:
 						'Bot Injective is a cryptocurrency bot that notifies users via Telegram about new coins launched on the Injective platform.',
 				},
+			],
+		},
+	},
+	{
+		id: 11,
+		title: 'Explore MegaEth',
+		url: 'https://staging-megaeth.netlify.app/',
+		category: 'Next Aplication',
+		img: '/images/megaeth1.png',
+		ProjectHeader: {
+			title: 'Explore MegaEth',
+			publishDate: 'Apr 20, 2024',
+			tags: 'Next Aplication / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Explore MegaEth',
+				img: '/images/megaeth1.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Nodefleet',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'Frotend Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://staging-megaeth.netlify.app',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Nodefleet is a company specializing in blockchain infrastructure, providing robust solutions for businesses looking to leverage blockchain technology for various applications. ',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next', 'TypeScript', "Prisma", "Posstgress"
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					"id": uuidv4(),
+					"details": "Megaeth is a cryptocurrency explorer that allows users to check balances, transactions, and current rewards for Megaeth."
+				},
+			],
+		},
+	}, {
+		id: 12,
+		title: 'Apollo.fun',
+		url: 'https://apollo.fun/',
+		category: 'Rebranding',
+		img: '/images/apollo1.png',
+		ProjectHeader: {
+			title: 'Apollo.fun',
+			publishDate: 'May 25, 2024',
+			tags: 'Rebranding / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Apollo.fun',
+				img: '/images/apollo1.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Apollo.fun',
+				img: '/images/apollo2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Apollo.fun',
+				img: '/images/apollo3.png',
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Nodefleet',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'Frotend Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://apollo.fun',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Nodefleet is a company specializing in blockchain infrastructure, providing robust solutions for businesses looking to leverage blockchain technology for various applications. ',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next', 'TypeScript', "Prisma", "Posstgress", "Web3.js", "Solana.js"
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					"id": uuidv4(),
+					"details": "Apollo.fun is a rebranding of sbf.fun with the aim to create Solana tokens, buy and sell tokens, and fill the bonding curve to publish the token on the blockchain."
+				},
+				{
+					"id": uuidv4(),
+					"details": "Apollo.fun, formerly known as sbf.fun, has undergone a rebranding with a renewed focus on the creation of Solana tokens. The platform facilitates the buying and selling of tokens and aims to strategically fill the bonding curve. This process is essential to ensure that the tokens can be successfully launched and listed on the Solana blockchain, providing users with a seamless experience in the cryptocurrency market."
+				}
+
+			],
+		},
+	}, {
+		id: 13,
+		title: 'The Story Protocol Faucet',
+		url: 'https://story-faucet.nodefleet.org/',
+		category: 'Landing',
+		img: '/images/story1.png',
+		ProjectHeader: {
+			title: 'The Story Protocol Faucet',
+			publishDate: 'Aug 31, 2024',
+			tags: 'Landing / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'The Story Protocol Faucet',
+				img: '/images/story1.png',
+			},
+
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Nodefleet',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'Frotend Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://story-faucet.nodefleet.org',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Nodefleet is a company specializing in blockchain infrastructure, providing robust solutions for businesses looking to leverage blockchain technology for various applications. ',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next', 'TypeScript', "Firebase", "Google Analitic",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					"id": uuidv4(),
+					"details": "The Story Protocol Faucet is a tool designed for developers to easily send cryptocurrency on testnet networks. It enables thorough testing and experimentation with available blockchain RPCs, ensuring that developers can conduct their tests effectively within the test environment."
+				},
+				{
+					"id": uuidv4(),
+					"details": "The Story Protocol Faucet serves as a vital resource for developers by providing a means to distribute cryptocurrency on testnet networks. This faucet is specifically designed to facilitate testing on the blockchain, allowing developers to utilize available RPCs and perform comprehensive tests in a controlled environment."
+				}
+
+
+			],
+		},
+	}, {
+		id: 14,
+		title: 'Ecnix Analytica Tools',
+		url: 'https://apps.ecnix.com/',
+		category: 'Next Aplication with Node.js',
+		img: '/images/ecnix1.png',
+		ProjectHeader: {
+			title: 'Ecnix Analytica Tools',
+			publishDate: 'Aug 31, 2024',
+			tags: 'Next / Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'Ecnix Analytica Tools',
+				img: '/images/ecnix1.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Ecnix Analytica Tools',
+				img: '/images/ecnix2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'Ecnix Analytica Tools',
+				img: '/images/ecnix3.png',
+			},
+
+		],
+		ProjectInfo: {
+			ClientHeading: 'About Client',
+			CompanyInfo: [
+				{
+					id: uuidv4(),
+					title: 'Name',
+					details: 'Mike Black',
+				},
+				{
+					id: uuidv4(),
+					title: 'Services',
+					details: 'Frotend Development',
+				},
+				{
+					id: uuidv4(),
+					title: 'Website',
+					details: 'https://apps.ecnix.com',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'Nodefleet is a company specializing in blockchain infrastructure, providing robust solutions for businesses looking to leverage blockchain technology for various applications. ',
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'Next', 'TypeScript', "Firebase", "Google Analitic",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					"id": uuidv4(),
+					"details": "Ecnix Analytica Tools offers a suite of utilities similar to ilovePDF, allowing users to convert files between different formats. Additionally, these tools incorporate AI-driven features, enabling users to interact with an AI for generating stories or crafting articles tailored for social media platforms like Instagram."
+				},
+				{
+					"id": uuidv4(),
+					"details": "Ecnix Analytica Tools provides a comprehensive set of utilities designed to facilitate file conversion across various formats, much like ilovePDF. Beyond conversion, the platform integrates advanced AI capabilities that allow users to engage with an AI assistant, creating stories or writing Instagram-ready articles with ease."
+				}
 			],
 		},
 	},
